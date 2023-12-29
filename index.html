@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="box">
+    <div id="categorypage">
+        <div id="categorymessage">
+            <p>Choose your category</p></div>
+        <div class="categ categ1" id="1" onclick="selectCateg('1')"><p>GEOGRAPHY</p></div>
+        <div class="categ categ2" id="2" onclick="selectCateg('2')"><p>SPORT</p></div>
+        <div class="categ categ3" id="3" onclick="selectCateg('3')"><p>TECHNOLOGY</p></div>
+        <div class="categ categ4" id="4" onclick="selectCateg('4')"><p>HISTORY</p></div>
+    </div>
+ <div id="firstpage" style="display: none">
+    <div class="startbutton" id="start">Start</div>
+    <ul class="rules">
+        <h1>Rules</h1>
+        <li>10 seconds for each question</li>
+         <li>Correct answer is 1 point</li>
+         <li>Wrong answer is -1 point</li></ul>
+    </div>
+        <div id="secondpage" style="display: none">
+            <div class="scoretable">
+                <h1>SCORE</h1>
+            </div>
+            <div class="countdown"></div>
+         <div id="score"></div>
+         <div id="time"></div>
+         <div id="question"></div>
+                <div id="answers">
+         <div class="answer" id="A" onclick="checkAnswer('A')"></div>
+         <div class="answer" id="B" onclick="checkAnswer('B')"></div>
+         <div class="answer" id="C" onclick="checkAnswer('C')"></div>
+         <div id="nextQuestion">Next >></div>
+                </div>
+        </div>
+             <div id="thirdpage" style="display: none">  
+                <div class="kupa"><img src="images/kupa.gif" width="350" height="350"></div>              
+                 <div class="star1"></div>
+                 <div class="star2"></div>
+                 <div class="star3"></div>
+                 <div id="congrats"></div>              
+                 <div id="totalscore">total score:</div>
+                 <div class="again" id="replay">PLAY AGAIN</div>
+                 <div id="highscore">highscore</div>
+                 <ul class="social">
+                    <li><a href="https://www.facebook.com/"><i class="facebook"><img src="images/facebook.png" width="60" height="60"></i></a></li>
+                    <li><a href="https://twitter.com/"><i class="twitter"><img src="images/twitter.png" width="60" height="60"></i></a></li>
+                    <li><a href="https://www.youtube.com/"><i class="share"><img src="images/share.png" width="60" height="60"></i></a></li></ul> 
+             </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

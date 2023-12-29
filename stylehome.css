@@ -1,0 +1,98 @@
+* body 
+{    
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka One', 'cursive';
+
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/backgroundhome.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.header
+{
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+.logo
+{
+  width: 200px;
+  cursor: pointer;
+}
+nav
+{
+  flex: 1;
+  text-align: right;
+}
+nav ul li
+{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a
+{
+  text-decoration: none;
+  color:rgb(22, 92, 197);
+  font-size: 22px;
+}
+.col
+{
+  margin-top: 25px;
+  margin-left: 55px;
+  flex-basis: 32%;
+}
+.col p
+{
+  margin-top: 2px;
+  font-size: 27px;
+  font-family: 'Fredoka One';
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  color: rgb(22, 92, 197);
+}
+.row
+{
+  display: flex;
+  height: 60%;
+  align-items: center;
+}
+.col h1
+{
+  font-size: 59px;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  color: rgb(22, 92, 197);
+}
+button
+{
+  font-family: 'Fredoka One';
+  font-weight: 200;
+  height: 200px;
+  width: 380px;
+  color: floralwhite;
+  font-size: 35px;
+  padding: 12px 0;
+  background: rgb(61, 184, 233);
+  border: 150;
+  border-radius: 60px;
+  margin-top: -300px;
+  margin-left: 1050px;  
+  box-shadow: inset 25px 25px 50px #1f6580,
+            inset -25px -25px 50px #49ebff;
+  cursor: pointer;
+}
+button:hover
+{
+  box-shadow:  5px 5px 50px #1f6580;
+  font-size: 37px;
+  border: 150;
+  border-radius: 55px;
+}
+
